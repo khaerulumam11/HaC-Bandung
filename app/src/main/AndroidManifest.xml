@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.portfolio">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pilihKota"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NavigationDrawerJakarta"
+            android:label="@string/title_activity_navigation_drawer_jakarta"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".Jakarta.ListviewBatikJakarta" />
+        <activity android:name=".Jakarta.ListviewTarianJakarta" />
+        <activity android:name=".Jakarta.ListviewMakananJakarta" />
+        <activity android:name=".Jakarta.ListviewBajudaerahJakarta" />
+        <activity android:name=".Jakarta.ListviewSejarahJakarta" />
+        <activity android:name=".Bandung.ListviewBatikBandung" />
+        <activity android:name=".Bandung.ListviewTarianBandung" />
+        <activity android:name=".Bandung.ListviewMakananBandung" />
+        <activity android:name=".Bandung.ListviewBajudaerahBandung" />
+        <activity android:name=".Bandung.ListviewSejarahBandung" />
+        <activity android:name=".Surabaya.ListviewBatikSurabaya" />
+        <activity android:name=".Surabaya.ListviewTarianSurabaya" />
+        <activity android:name=".Surabaya.ListviewMakananSurabaya" />
+        <activity android:name=".Surabaya.ListviewBajudaerahSurabaya" />
+        <activity android:name=".Surabaya.ListviewSejarahSurabaya" />
+        <activity
+            android:name=".NavigationDrawerBandung"
+            android:label="@string/title_activity_navigation_drawer_bandung"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavigationDrawerSurabaya"
+            android:label="@string/title_activity_navigation_drawer_surabaya"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikJakarta.TablayoutInfoBatikJakarta1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBx1XBNzvBreqK24-TL58qM8HnMEy0MyXY" />
+
+        <activity
+            android:name=".BatikJakarta.TablayoutInfoBatikJakarta2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikJakarta.TablayoutInfoBatikJakarta3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikJakarta.TablayoutInfoBatikJakarta4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikJakarta.TablayoutInfoBatikJakarta5"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananJakarta.TablayoutInfoMakananJakarta1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananJakarta.TablayoutInfoMakananJakarta2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananJakarta.TablayoutInfoMakananJakarta3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananJakarta.TablayoutInfoMakananJakarta4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananJakarta.TablayoutInfoMakananJakarta5"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianJakarta.TablayoutInfoTarianJakarta1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianJakarta.TablayoutInfoTarianJakarta2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianJakarta.TablayoutInfoTarianJakarta3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianJakarta.TablayoutInfoTarianJakarta4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianJakarta.TablayoutInfoTarianJakarta5"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahJakarta.TablayoutInfoSejarahJakarta1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahJakarta.TablayoutInfoSejarahJakarta2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahJakarta.TablayoutInfoSejarahJakarta3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahJakarta.TablayoutInfoSejarahJakarta4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahJakarta.TablayoutInfoSejarahJakarta5"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BajudaerahJakarta.TablayoutInfoBajudaerahJakarta1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BajudaerahJakarta.TablayoutInfoBajudaerahJakarta2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BajudaerahJakarta.TablayoutInfoBajudaerahJakarta3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BajudaerahJakarta.TablayoutInfoBajudaerahJakarta4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BajudaerahJakarta.TablayoutInfoBajudaerahJakarta5"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BajudaerahBandung.TablayoutInfoBajudaerahBandung1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BajudaerahBandung.TablayoutInfoBajudaerahBandung2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BajudaerahBandung.TablayoutInfoBajudaerahBandung3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BajudaerahBandung.TablayoutInfoBajudaerahBandung4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BajudaerahSurabaya.TablayoutInfoBajudaerahSurabaya1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BajudaerahSurabaya.TablayoutInfoBajudaerahSurabaya2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BajudaerahSurabaya.TablayoutInfoBajudaerahSurabaya3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahBandung.TablayoutInfoSejarahBandung1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahBandung.TablayoutInfoSejarahBandung2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahBandung.TablayoutInfoSejarahBandung3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahBandung.TablayoutInfoSejarahBandung4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahBandung.TablayoutInfoSejarahBandung5"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahSurabaya.TablayoutInfoSejarahSurabaya1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahSurabaya.TablayoutInfoSejarahSurabaya2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahSurabaya.TablayoutInfoSejarahSurabaya3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SejarahSurabaya.TablayoutInfoSejarahSurabaya4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianBandung.TablayoutInfoTarianBandung1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianBandung.TablayoutInfoTarianBandung2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianBandung.TablayoutInfoTarianBandung3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianBandung.TablayoutInfoTarianBandung4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianSurabaya.TablayoutInfoTarianSurabaya1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianSurabaya.TablayoutInfoTarianSurabaya2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianSurabaya.TablayoutInfoTarianSurabaya3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianSurabaya.TablayoutInfoTarianSurabaya4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TarianSurabaya.TablayoutInfoTarianSurabaya5"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananBandung.TablayoutInfoMakananBandung1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananBandung.TablayoutInfoMakananBandung2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananBandung.TablayoutInfoMakananBandung3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananBandung.TablayoutInfoMakananBandung4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananBandung.TablayoutInfoMakananBandung5"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananSurabaya.TablayoutInfoMakananSurabaya1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananSurabaya.TablayoutInfoMakananSurabaya2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananSurabaya.TablayoutInfoMakananSurabaya3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananSurabaya.TablayoutInfoMakananSurabaya4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakananSurabaya.TablayoutInfoMakananSurabaya5"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikBandung.TablayoutInfoBatikBandung1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikBandung.TablayoutInfoBatikBandung2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikBandung.TablayoutInfoBatikBandung3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikBandung.TablayoutInfoBatikBandung4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikBandung.TablayoutInfoBatikBandung5"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikSurabaya.TablayoutInfoBatikSurabaya1"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikSurabaya.TablayoutInfoBatikSurabaya2"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikSurabaya.TablayoutInfoBatikSurabaya3"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BatikSurabaya.TablayoutInfoBatikSurabaya4"
+            android:label="@string/title_activity_info_batik_jakarta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Kuis.Kuis1" >
+
+        </activity>
+        <activity android:name=".Kuis.KuisTerakhir"></activity>
+        <activity android:name=".Kuis.Kuis2"></activity>
+        <activity android:name=".Kuis.Kuis3"></activity>
+        <activity android:name=".Kuis.Kuis4"></activity>
+        <activity android:name=".Kuis.Kuis5"></activity>
+        <activity android:name=".Kuis.Kuis6"></activity>
+        <activity android:name=".Kuis.Kuis7"></activity>
+        <activity android:name=".Kuis.Kuis8"></activity>
+        <activity android:name=".Kuis.Kuis9"></activity>
+    </application>
+
+</manifest>

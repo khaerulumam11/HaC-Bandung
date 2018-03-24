@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_batik"
+            android:icon="@mipmap/menu_batik"
+            android:title="Batik" />
+        <item
+            android:id="@+id/nav_tarian"
+            android:icon="@mipmap/menu_tarian"
+            android:title="Tarian" />
+        <item
+            android:id="@+id/nav_makanan"
+            android:icon="@mipmap/menu_makanan"
+            android:title="Makanan" />
+        <item
+            android:id="@+id/nav_bajudaerah"
+            android:icon="@mipmap/menu_bajudaerah"
+            android:title="Baju Daerah" />
+        <item
+            android:id="@+id/nav_sejarah"
+            android:icon="@mipmap/menu_sejarah"
+            android:title="Sejarah" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@mipmap/menu_signout"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

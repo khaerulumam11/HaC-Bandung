@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "421514211530",
+    "firebase_url": "https://portfolio-fc9e9.firebaseio.com",
+    "project_id": "portfolio-fc9e9",
+    "storage_bucket": "portfolio-fc9e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421514211530:android:99c378b4b51b1866",
+        "android_client_info": {
+          "package_name": "com.example.android.portfolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421514211530-8cn6oprbg8qp14mh8ebeued1v9boku3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU1JLRDtks5o9ey0dzVhjsW7aBO92qifk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
